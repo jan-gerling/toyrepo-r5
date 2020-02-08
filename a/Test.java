@@ -15,8 +15,11 @@ class Test<T, U>
     // To print objects of T and U 
     public void print() 
     { 
-        System.out.println(obj1); 
-        System.out.println(obj2); 
+        print2();
     } 
 
+    private void print2() {
+        System.out.println(obj1); 
+        System.out.println(obj2); 
+    }
 } 
